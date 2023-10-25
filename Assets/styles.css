@@ -591,20 +591,19 @@ body {
       }
       
       .contact .php-email-form button[type="submit"] {
-          background: #fff;
-          border: 2px solid black;
+          background: #28a745; /* Green color for the button */
+          border: none;
           padding: 10px 24px;
-          color: black;
+          color: #fff;
           transition: 0.4s;
-          border-radius: 50px;
+          border-radius: 10px;
           font-size: 16px;
           cursor: pointer;
           float: right; /* Aligns the button to the right */
       }
       
       .contact .php-email-form button[type="submit"]:hover {
-          background: black;
-          color: #fff;
+          background: #218838; /* Darker green color on hover */
       }
       
 
